@@ -1,0 +1,4 @@
+kind: "Part"
+title: "Related Products"
+description: "Renders a grid of products related to the Medusa product. Reads the handle from the parent Product Page content item."
+form: []

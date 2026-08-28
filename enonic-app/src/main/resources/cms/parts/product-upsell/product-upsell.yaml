@@ -1,0 +1,4 @@
+kind: "Part"
+title: "Product Upsell"
+description: "Renders the 'You might also like' upsell products configured via Product Promotions. Reads the handle from the parent Product Page content item."
+form: []

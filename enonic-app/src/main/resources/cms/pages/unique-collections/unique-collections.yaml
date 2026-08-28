@@ -1,0 +1,6 @@
+kind: "Page"
+title: "Unique Collections Page"
+description: "Page layout for editor-composed curated collection pages"
+form: []
+regions:
+  - "main"

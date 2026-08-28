@@ -1,0 +1,37 @@
+kind: "Mixin"
+title: "Menu"
+form:
+  - type: "ItemSet"
+    name: "menuiteam"
+    label: "Menu Item"
+    occurrences:
+      min: 0
+      max: 0
+    items:
+      - type: "TextLine"
+        name: "menuname"
+        label: "Menu Name"
+        occurrences:
+          min: 1
+          max: 1
+      - type: "ContentSelector"
+        name: "page"
+        label: "Page"
+        helpText: "Leave empty if this item is a dropdown instead of a direct link"
+        occurrences:
+          min: 0
+          max: 1
+      - type: "Checkbox"
+        name: "showAllCollections"
+        label: "Show all collections as a dropdown"
+        helpText: "If checked, this item becomes a dropdown auto-populated with every collection"
+        occurrences:
+          min: 0
+          max: 1
+      - type: "ContentSelector"
+        name: "customCollections"
+        label: "Custom dropdown collections"
+        helpText: "Pick specific collections to show in this dropdown (used instead of 'Show all collections' for themed/seasonal groupings)"
+        occurrences:
+          min: 0
+          max: 0
