@@ -1,0 +1,5 @@
+kind: "AdminExtension"
+title: "Medusa Extension Selector"
+description: "Fetches custom options from Medusa for selection"
+interfaces:
+  - "contentstudio.customselector"  

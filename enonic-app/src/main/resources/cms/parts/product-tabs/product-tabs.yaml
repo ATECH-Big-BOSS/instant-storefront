@@ -1,0 +1,4 @@
+kind: "Part"
+title: "Product Tabs"
+description: "Renders the Medusa product's info/shipping accordions. Reads the handle from the parent Product Page content item."
+form: []

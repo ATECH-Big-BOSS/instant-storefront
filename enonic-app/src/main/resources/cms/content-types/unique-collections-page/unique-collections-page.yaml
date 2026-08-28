@@ -1,0 +1,20 @@
+kind: "ContentType"
+superType: "base:structured"
+title: "Unique Collections Page"
+description: "An editor-curated page featuring a hand-picked set of collections"
+form:
+  - type: "TextLine"
+    name: "heading"
+    label: "Page Heading"
+    helpText: "Optional heading shown at the top of the page"
+    occurrences:
+      min: 0
+      max: 1
+  - type: "CustomSelector"
+    name: "selectedCollections"
+    label: "Collections"
+    helpText: "Pick the specific collections to feature on this page"
+    occurrences:
+      min: 0
+      max: 0
+    service: "collectionsSelector"

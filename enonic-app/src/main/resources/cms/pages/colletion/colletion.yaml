@@ -1,0 +1,6 @@
+kind: "Page"
+title: "Collection Page"
+description: "editorial Collection page for you marketing and promotional needs. Page layout for editor-composed collection pages"
+form: []
+regions:
+  - "main"

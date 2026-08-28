@@ -1,0 +1,12 @@
+kind: "AdminExtension"
+title:                                
+  text: "Medusa extension"
+  i18n: "i18n.my-extension.title"
+description: "Custom selector to choose a Medusa product. (using extension)"           
+interfaces:                           
+  - "com.example.app.sidebar"
+  - "com.example.myinterface"
+allow:                                
+  - "role:system.admin"
+config:                               
+  property_1: "value_1"

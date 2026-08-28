@@ -1,0 +1,4 @@
+kind: "Part"
+title: "Product Actions"
+description: "Renders the Medusa product's variant selector, price, and add-to-cart button. Reads the handle from the parent Product Page content item."
+form: []
