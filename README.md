@@ -102,6 +102,8 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000).
 
+Or open [http://localhost:8080](http://localhost:8080). Depends on whether you use the .env temple, and or if you reconfigure the endpoint.
+
 ---
 
 ## Project Structure
